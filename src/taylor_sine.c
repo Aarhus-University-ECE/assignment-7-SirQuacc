@@ -25,6 +25,8 @@ double taylor_sine(double x, int n)
             sine -= pow(x, i)/factorial(i);
             swapCount++;
         }
+       // printf("Factorial now: %ld\n", factorial(i));
     }
+    
     return sine;
 }

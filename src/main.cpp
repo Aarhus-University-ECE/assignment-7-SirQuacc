@@ -12,7 +12,7 @@ int main(int argc, char **argv)
     /*
      * Own tests for the taylor_sine.c function
      */
-    double ownTestCases[5] = {0.03, 2.5, 6, 19, 47};
+    double ownTestCases[5] = {3.141500, 2.5, 6, 19, 47};
     int precision[5] = {3, 7, 9, 13, 15};
 
     for(int i = 0; i < 5; i++){
